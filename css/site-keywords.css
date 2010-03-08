@@ -1,0 +1,93 @@
+#site-keywords {
+	
+	
+}
+
+#site-keywords table {
+	text-align: left;
+}
+
+#site-keywords table th.keyword {
+	width: 150px;	
+}
+
+#site-keywords table th.url {
+	width: 200px;	
+}
+
+#site-keywords table th.expires {
+	width: 80px;	
+}
+
+#site-keywords table th.start {
+	width: 100px;	
+}
+
+#site-keywords table th.finish {
+	width: 100px;	
+}
+
+#site-keywords table th.edit {
+	width: 50px;	
+}
+
+#site-keywords table th.delete {
+	width: 50px;	
+}
+
+#site-keywords table tr.even {
+	background: #f1f1f1;
+}
+
+#site-keywords table tr.odd {
+	background: #e6e6e6;
+}
+
+
+span.label {
+	position: relative;
+	width: 575px;
+	text-align: right;
+	display: block;
+	float: left;
+	line-height: 1.7em;
+}
+
+#site-keywords input.save {
+	position: relative;
+	float: right;
+}
+
+#site-keywords input.close {
+	position: relative;
+	float: right;
+}
+
+span.add_label {
+	position: relative;
+	width: 175px;
+	text-align: right;
+	display: block;
+	float: left;
+	line-height: 1.7em;
+}
+
+#site-keywords input.add {
+	position: relative;
+	margin: 0 0 0 175px;
+}
+
+#site-keywords table tr td div.delete {
+	position: relative;
+	float: right;
+}
+
+#site-keywords table tr.edit_keyword {
+	display: none;
+
+}
+
+#site-keywords table tr.delete_keyword {
+	display: none;
+}
+
