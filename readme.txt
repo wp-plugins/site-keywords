@@ -4,6 +4,7 @@ Tags: search, keywords, links
 Requires at least: 2.9
 Tested up to: 2.9.1
 Stable tag: 0.1
+Donate: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=78NXWSQXVUXCU
 
 Site Keywords allows you to keep a list of keywords and assign them to links (internal and external).
 
@@ -15,13 +16,11 @@ When a keyword is entered and submitted the site will go directly to the attache
 
 == Installation ==
 
-Upload the "Site Keyword" plugin to your blog, Activate it, then:
+1: Upload the "Site Keyword" plugin to your blog.
 
-1: 
+2: Activate it.
 
-2: 
-
-3:
+3: Add keywords.
 
 == Changelog ==
 
