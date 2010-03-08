@@ -31,3 +31,4 @@ When a keyword is entered and submitted the site will go directly to the attache
 
 * Form field validation
 * Cleaned admin section
+* Autocomplete search field from Keyword Database
