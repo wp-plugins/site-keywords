@@ -1,10 +1,10 @@
 === Site Keywords ===
 Contributors: teejnits
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=78NXWSQXVUXCU
 Tags: search, keywords, links
 Requires at least: 2.9
 Tested up to: 2.9.1
 Stable tag: 0.1
-Donate: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=78NXWSQXVUXCU
 
 Site Keywords allows you to keep a list of keywords and assign them to links (internal and external).
 
