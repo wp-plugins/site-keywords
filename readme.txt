@@ -29,6 +29,10 @@ Upload the "Site Keyword" plugin to your blog, Activate it, then:
 
 == Changelog ==
 
-= 0.7 =
+= 0.1 =
+* Initial Beta Release
 
-* Created
+== Future Changes ==
+
+* Form field validation
+* Cleaned admin section

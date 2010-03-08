@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: Site Keywords
-Plugin URI: 
+Plugin URI: http://wordpress.org/extend/plugins/site-keywords
 Description: Site Keywords allows you to create a list of Keywords and assign them to a link. If anyone types in a specific keyword into the searchbox it will take them directly to the page. If not it will take them to the WP search page and display results. Includes JQuery Auto-complete based on the list of keywords and the users entry.
-Version: 0.7
+Version: 0.1
 Author: TJ Tyrrell
 Author URI: http://tjtyrrel.com/
 
