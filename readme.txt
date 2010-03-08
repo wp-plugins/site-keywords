@@ -1,8 +1,9 @@
 === Site Keywords ===
-Contributors: tj
+Contributors: teejnits
 Tags: search, keywords, links
 Requires at least: 2.9
 Tested up to: 2.9.1
+Stable tag: 0.1
 
 Site Keywords allows you to keep a list of keywords and assign them to links (internal and external).
 When a user starts typing in the searchbox, SK will attempt to auto-complete based on the users typing.
