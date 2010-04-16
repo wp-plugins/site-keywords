@@ -26,7 +26,7 @@ When a keyword is entered and submitted the site will go directly to the attache
 
 = 0.2 =
 
-*Fixed IE issue where page would refresh into an infinite loop.
+* Fixed IE issue where page would refresh into an infinite loop.
 
 = 0.1 =
 * Initial Beta Release
