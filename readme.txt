@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: search, keywords, links
 Requires at least: 2.9
 Tested up to: 2.9.1
-Stable tag: 0.1
+Stable tag: 0.2
 
 Site Keywords allows you to keep a list of keywords and assign them to links (internal and external).
 
@@ -23,6 +23,10 @@ When a keyword is entered and submitted the site will go directly to the attache
 3: Add keywords.
 
 == Changelog ==
+
+= 0.2 =
+
+*Fixed IE issue where page would refresh into an infinite loop.
 
 = 0.1 =
 * Initial Beta Release
