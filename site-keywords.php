@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: Site Keywords
-Plugin URI: http://wordpress.org/extend/plugins/site-keywords
+Plugin URI: 
 Description: Site Keywords allows you to create a list of Keywords and assign them to a link. If anyone types in a specific keyword into the searchbox it will take them directly to the page. If not it will take them to the WP search page and display results. Includes JQuery Auto-complete based on the list of keywords and the users entry.
-Version: 0.2
+Version: 0.8
 Author: TJ Tyrrell
 Author URI: http://tjtyrrel.com/
 
@@ -27,9 +27,8 @@ Author URI: http://tjtyrrel.com/
 
 
 
-define('SITEKEYWORDS_VERSION', '0.7');
-$sk_db_version = "0.7";
-
+define('SITEKEYWORDS_VERSION', '0.8');
+$sk_db_version = "0.8";
 
 
 
@@ -294,11 +293,15 @@ function sk_options_page() {
 
 
 
-add_action('wp_head', 'sk_intercept_search');
+add_action('get_header', 'sk_intercept_search');
+
 
 function sk_intercept_search() {
 
-	if(is_search()) {
+
+	if (is_search()) {
+		
+		
 		$search_key = get_search_query();
 	
 		global $wpdb;
@@ -317,20 +320,13 @@ function sk_intercept_search() {
 			$finish = $get_keyword[0]['finish'];
 			$today = date('Y-m-d');
 			
-			
-			
 			if( $expires != 1 ) {
 				header("Location: $url");
-				//echo "<meta http-equiv=\"refresh\" content=\"0;$url\" />";
-				flush();
-				exit(0);
-				
+				exit;
+				//echo "<meta http-equiv=\"refresh\" content=\"0;$url\" />";				
 			} elseif (($starts <= $today) && ($today <= $finish)) {
-
 				header("Location: $url");
 				//echo "<meta http-equiv='refresh' content='0;$url'>";
-				flush();
-				exit(0);
 				
 			}
 			
